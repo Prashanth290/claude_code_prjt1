@@ -319,3 +319,12 @@ textarea { min-height: 120px; resize: vertical; }
 .included b { display: block; font-family: "Cormorant Garamond", serif; font-size: 2.3rem; color: var(--gold); line-height: 1; margin-bottom: 8px; }
 .included span { color: rgba(255,255,255,.8); font-size: .95rem; }
 @media (max-width: 860px) { .included { grid-template-columns: 1fr 1fr; } }
+
+/* Hero headline mini illustration: tangle → arrow */
+.untangle { display: inline-block; width: 1.9em; height: .9em; margin: 0 .05em 0 .2em; vertical-align: -.02em; overflow: visible; }
+.untangle path { fill: none; stroke: url(#ug); stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.untangle .ul { stroke-dasharray: 200; stroke-dashoffset: 200; animation: untangle 1.8s .6s ease forwards; }
+.untangle .uh { opacity: 0; animation: arrowin .4s 2.2s ease forwards; }
+@keyframes untangle { to { stroke-dashoffset: 0; } }
+@keyframes arrowin { to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .untangle .ul { animation: none; stroke-dashoffset: 0; } .untangle .uh { animation: none; opacity: 1; } }
