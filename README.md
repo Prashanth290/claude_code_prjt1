@@ -1,6 +1,6 @@
 # Inner Light Coaching website
 
-Static three-page life coaching site, deployed automatically to Vercel on every push.
+Static five-page life coaching site, deployed automatically to Vercel on every push.
 
 - `index.html` – Home
 - `how-it-works.html` – The 4-step process, what changes, what you get
