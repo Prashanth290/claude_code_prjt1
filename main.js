@@ -13,7 +13,7 @@ document.querySelector('.menu-btn').addEventListener('click', () => {
 
 const io = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
-}, { threshold: 0.12 });
+}, { threshold: 0, rootMargin: '0px 0px 120px 0px' });
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 document.querySelectorAll('.yr').forEach(el => el.textContent = new Date().getFullYear());
