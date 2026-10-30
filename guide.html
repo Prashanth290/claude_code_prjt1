@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Companion — Inner Light Coaching</title>
-  <meta name="description" content="Chat privately with the Inner Light AI Companion. Get unstuck, calm your mind and find one small next step.">
+  <title>Free Self-Help Guide — Inner Light Coaching</title>
+  <meta name="description" content="A free, private 5-minute guide to help you feel clearer and calmer, one small step at a time.">
   <link rel="icon" href="data:image/svg+xml,<svg viewBox='0 0 40 40' aria-hidden='true'><defs><linearGradient id='lg' x1='0' y1='1' x2='1' y2='0'><stop offset='0' stop-color='%23e38a8a'/><stop offset='1' stop-color='%23f4b266'/></linearGradient></defs><circle cx='20' cy='20' r='19' fill='url(%23lg)'/><path d='M20 30 C14 26 11 21 12 15 C16 17 18.5 21 20 30Z M20 30 C26 26 29 21 28 15 C24 17 21.5 21 20 30Z' fill='%23fff' opacity='.85'/><path d='M20 30 C17 24 17 16 20 10 C23 16 23 24 20 30Z' fill='%23fff'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
       <a href="index.html" class="logo"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#e38a8a"/><stop offset="1" stop-color="#f4b266"/></linearGradient></defs><circle cx="20" cy="20" r="19" fill="url(#lg)"/><path d="M20 30 C14 26 11 21 12 15 C16 17 18.5 21 20 30Z M20 30 C26 26 29 21 28 15 C24 17 21.5 21 20 30Z" fill="#fff" opacity=".85"/><path d="M20 30 C17 24 17 16 20 10 C23 16 23 24 20 30Z" fill="#fff"/></svg>Inner Light</a>
       <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li><li><a href="how-it-works.html">How It Works</a></li><li><a href="coaching.html">Programs</a></li><li><a href="faq.html">FAQ</a></li><li><a href="companion.html" class="active">AI Companion</a></li>
+        <li><a href="index.html">Home</a></li><li><a href="how-it-works.html">How It Works</a></li><li><a href="coaching.html">Programs</a></li><li><a href="faq.html">FAQ</a></li><li><a href="guide.html" class="active">Self-Help Guide</a></li>
         <li><a href="begin.html#book" class="btn">Book free session</a></li>
       </ul>
     </div>
@@ -28,30 +28,21 @@
     <section class="chat-section">
       <div class="wrap chat-wrap">
         <div class="chat-head">
-          <div class="pill"><b>NEW</b> Free · Private · Available 24/7</div>
-          <h1>Talk it through with the <span class="grad-text">AI Companion</span></h1>
-          <p class="lead" style="margin:0 auto">Feeling stuck, stressed or caught in a habit? Share what's on your mind in your own words. The companion listens and helps you find one small next step.</p>
+          <div class="pill"><b>FREE</b> 5 minutes · Private · No sign-up</div>
+          <h1>Your free <span class="grad-text">Self-Help Guide</span></h1>
+          <p class="lead" style="margin:0 auto">Pick what you are facing. The guide walks you through a few small, kind steps to help you feel clearer and calmer.</p>
         </div>
         <div class="chat-card">
-          <div class="chat-top"><div class="av"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#e38a8a"/><stop offset="1" stop-color="#f4b266"/></linearGradient></defs><circle cx="20" cy="20" r="19" fill="url(#lg)"/><path d="M20 30 C14 26 11 21 12 15 C16 17 18.5 21 20 30Z M20 30 C26 26 29 21 28 15 C24 17 21.5 21 20 30Z" fill="#fff" opacity=".85"/><path d="M20 30 C17 24 17 16 20 10 C23 16 23 24 20 30Z" fill="#fff"/></svg></div><div><b>Inner Light AI Companion</b><span><i class="dot"></i>Here to listen</span></div></div>
-          <div class="chat-log" id="chatLog" aria-live="polite">
-            <div class="bubble assistant">Hi, I'm the Inner Light AI Companion. This is a safe, judgement-free space. What's on your mind today? You can write in English or your own language.</div>
-            <div class="chips" id="chips">
-              <button type="button" class="chip">I feel stuck in life</button>
-              <button type="button" class="chip">I overthink everything</button>
-              <button type="button" class="chip">I want to quit a bad habit</button>
-              <button type="button" class="chip">I don't know what I want</button>
-            </div>
+          <div class="chat-top"><div class="av"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#e38a8a"/><stop offset="1" stop-color="#f4b266"/></linearGradient></defs><circle cx="20" cy="20" r="19" fill="url(#lg)"/><path d="M20 30 C14 26 11 21 12 15 C16 17 18.5 21 20 30Z M20 30 C26 26 29 21 28 15 C24 17 21.5 21 20 30Z" fill="#fff" opacity=".85"/><path d="M20 30 C17 24 17 16 20 10 C23 16 23 24 20 30Z" fill="#fff"/></svg></div><div><b>Inner Light Self-Help Guide</b><span><i class="dot"></i>One small step at a time</span></div></div>
+          <div class="chat-log" id="guideLog" aria-live="polite">
+            <div class="bubble assistant">Hi, welcome. This is a safe, judgement-free space. What would you like to work on today?</div>
           </div>
-          <form class="chat-form" id="chatForm">
-            <textarea id="chatInput" rows="1" placeholder="Type your message…" aria-label="Your message" maxlength="2000"></textarea>
-            <button class="btn" id="chatSend" type="submit" aria-label="Send"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-          </form>
+          <div class="guide-panel" id="guidePanel"></div>
         </div>
-        <p class="chat-note">This is an AI, not a therapist or doctor. Chats are not saved on this website.<br><b>In crisis?</b> Call Tele-MANAS <b>14416</b> or emergency <b>112</b>. For real coaching, <a href="begin.html#book">book a free session</a>.</p>
+        <p class="chat-note">Your answers stay on your device. Nothing is sent or saved.<br>This guide is not therapy or medical advice. <b>In crisis?</b> Call Tele-MANAS <b>14416</b> or emergency <b>112</b>.</p>
       </div>
     </section>
-    <script src="companion.js" defer></script>
+    <script src="guide.js" defer></script>
 
   </main>
 
@@ -64,7 +55,7 @@
         </div>
         <div>
           <h4>Explore</h4>
-          <ul><li><a href="index.html">Home</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="coaching.html">Programs</a></li><li><a href="faq.html">FAQ</a></li><li><a href="companion.html">AI Companion</a></li><li><a href="begin.html">Book a free session</a></li></ul>
+          <ul><li><a href="index.html">Home</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="coaching.html">Programs</a></li><li><a href="faq.html">FAQ</a></li><li><a href="guide.html">Self-Help Guide</a></li><li><a href="begin.html">Book a free session</a></li></ul>
         </div>
         <div>
           <h4>Sessions</h4>
