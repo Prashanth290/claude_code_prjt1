@@ -1,5 +1,5 @@
 // Paste your Formspree form URL here (e.g. "https://formspree.io/f/abcdwxyz") to receive bookings by email.
-const FORM_ENDPOINT = "";
+const FORM_ENDPOINT = "https://formspree.io/f/xwllnqez";
 
 const header = document.querySelector('.site-header');
 const onScroll = () => header.classList.toggle('scrolled', scrollY > 30);
