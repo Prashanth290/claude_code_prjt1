@@ -380,3 +380,6 @@ textarea { min-height: 120px; resize: vertical; }
 .guide-end p { margin: 0 0 4px; text-align: center; color: var(--muted); }
 .guide-end .guide-row { justify-content: center; }
 @media (prefers-reduced-motion: reduce) { .breath.run { animation: none; transform: scale(1); } }
+
+.whatis { margin: 18px 0 0; padding: 14px 18px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--gold); color: var(--muted); max-width: 60ch; font-size: .98rem; }
+.whatis b { color: var(--text); }
